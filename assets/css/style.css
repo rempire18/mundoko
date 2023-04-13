@@ -1,0 +1,83 @@
+body {
+    background-color:  chartreuse;
+    font-family: "Arial", sans-serif;
+    
+}
+
+h1 {
+    font-size: 200%;
+    color: black;
+}
+
+h2 {font-size: 50%;}
+
+
+.nav {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+li {
+    list-style: none;
+    display: inline-flex;
+    text-align:center;
+    background-color: chartreuse;
+    margin-right: 15px;
+    padding: 5px;
+
+} 
+
+a,li {
+    text-decoration: none;
+}
+
+a:hover,li:hover{
+    font-size: 125%;
+    color: chartreuse;
+    background-color: #055;
+}
+
+a:link {
+    color: black;
+}
+/*betting*/
+
+.container-bet {
+
+    height: 50px;
+    border: 1px solid black; /* Add a black border around the container */
+    background-color: black;
+    padding: 20px; /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+
+}
+
+.container-buy {
+
+    height: 50px;
+    border: 1px solid black; /* Add a black border around the container */
+    background-color: black;
+    padding: 20px; /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+
+}
+
+.container-chat{
+
+    height: 50px;
+    border: 1px solid black; /* Add a black border around the container */
+    background-color: black;
+    padding: 20px; /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
