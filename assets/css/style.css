@@ -161,6 +161,68 @@ a {
 
 }
 
+  /*Learn-Page*/
+
+  /*title-page*/
+
+ 
+
+  .container-title-page {
+
+    height: 100px;
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+    /* Add a black border around the container */
+    background-color: black;
+    padding: 20px;
+    /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex; /* Add display flex to center the child container vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
+
+.container-title-page-p{
+    background-color: chartreuse;
+    display: inline-block; 
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+p {
+    color: black;
+    font-size: 200%;
+    text-transform: uppercase;
+   
+  }
+
+  /*iframe*/
+  
+  .iframe-wrapper {
+    position: relative;
+    width: 80%; /* set the width of the iframe wrapper */
+    height: 80%; /* set the height of the iframe wrapper */
+  }
+
+  iframe {
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  /*learning-videos*/
+
+
 .container-learn-html {
     display: relative;
     justify-content: center;
@@ -194,29 +256,13 @@ a {
     margin-bottom: 25px;
   }
 
-  .iframe-wrapper {
-    position: relative;
-    width: 80%; /* set the width of the iframe wrapper */
-    height: 80%; /* set the height of the iframe wrapper */
-  }
-
-  iframe {
-    position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 100%;
-    height: 100%;
-  }
-
-  /*Learn-Page*/
-
- 
-
-  .container-title-page {
-
-    height: 100px;
-    margin: auto;
+  .container-learn-python {
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
     width: 60%;
+    margin: auto;
     border: 1px solid black;
     /* Add a black border around the container */
     background-color: black;
@@ -224,16 +270,10 @@ a {
     /* Add 20 pixels of padding around the content inside the container */
     margin-top: 25px;
     margin-bottom: 25px;
-
-}
-
-p {
-    background-color: black;
-    color: chartreuse;
-    font-size: 200%;
-    text-align: center;
-    text-transform: uppercase;
-
   }
+
+  
+
+
 
  
