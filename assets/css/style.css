@@ -57,7 +57,10 @@ li {
     text-decoration: none;
 }
 
-nav a li.active {
+.active {
+    font-size: 125%;
+    color: chartreuse;
+    background-color: #055;
     text-decoration: underline;
 }
 
@@ -158,7 +161,24 @@ a {
 
 }
 
-.container-learn {
+.container-learn-html {
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    /* Add a black border around the container */
+    background-color: black;
+    padding: 20px;
+    /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+
+.container-learn-javascript {
     display: relative;
     justify-content: center;
     align-items: center;
@@ -187,3 +207,33 @@ a {
     width: 100%;
     height: 100%;
   }
+
+  /*Learn-Page*/
+
+ 
+
+  .container-title-page {
+
+    height: 100px;
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+    /* Add a black border around the container */
+    background-color: black;
+    padding: 20px;
+    /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+p {
+    background-color: black;
+    color: chartreuse;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+
+ 
