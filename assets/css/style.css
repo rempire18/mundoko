@@ -145,6 +145,21 @@ a {
 
 }
 
+.container-email {
+
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    /* Add a black border around the container */
+    background-color: black;
+    padding: 20px;
+    /* Add 20 pixels of padding around the content inside the container */
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
 .container-watch {
 
     height: 100px;
